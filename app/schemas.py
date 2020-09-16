@@ -20,6 +20,15 @@ class User(BaseModel):
 	data : UserBase
 
 
+class UserIn(BaseModel):
+	username: str
+	email: str
+	department_id : Optional[int] = None
+
+	class Config:
+		orm_mode = True
+
+
 class UserListOut(BaseModel):
 	total: Optional[int] = None
 	limit: Optional[int] = None
@@ -35,6 +44,12 @@ class DepartmentBase(BaseModel):
 	class Config:
 		orm_mode = True
 		fields = {'links': '_links'}
+
+
+class DepartmentIn(BaseModel):
+	name: str
+	class Config:
+		orm_mode = True
 
 
 class Department(BaseModel):
