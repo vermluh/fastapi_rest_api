@@ -8,8 +8,8 @@ All endpoints return JSON formatted output.
 
 
 
-User
-====
+Users
+=====
 
 The ``/users`` endpoint provides the User ressource.
 
