@@ -6,7 +6,7 @@ Basic REST API using FastAPI and SQLAlchemy.
 
 All endpoints return JSON formatted output.
 
-All endpoints return the actual data encapsulated in the key ``data``, e.g.
+All endpoints return the actual data encapsulated in the ``data`` key, e.g.
 
 ::
 
