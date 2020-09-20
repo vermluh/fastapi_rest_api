@@ -6,7 +6,7 @@ Basic REST API using FastAPI and SQLAlchemy.
 
 All endpoints return JSON formatted output.
 
-All endpoints return the actual data encapsulated in the key ``data```, e.g.
+All endpoints return the actual data encapsulated in the key ``data``, e.g.
 
 ::
 
@@ -33,7 +33,7 @@ Users
 The ``/users`` endpoint provides the User ressource.
 
 =========== =========== =======================
-HTTP Method URI               Action
+HTTP Method URI         Action
 =========== =========== =======================
 GET         /users      Retrieve list of users
 GET         /users/[id] Retrieve a user
@@ -50,7 +50,7 @@ Departments
 The ``/departments`` endpoint provides the Department ressource.
 
 =========== ================= =============================
-HTTP Method URI                     Action
+HTTP Method URI               Action
 =========== ================= =============================
 GET         /departments      Retrieve list of departments
 GET         /departments/[id] Retrieve a department
@@ -93,21 +93,3 @@ Every endpoint which supports pagination is indicating this by returning some in
 	    "total":21,
 	    "data":[...]
 	}
-
-
-
-
-************************************
-TODO: Authorization / Authentication
-************************************
-
-
-
-****************
-TODO: Rate limit
-****************
-
-
-*************
-TODO: Testing
-*************
