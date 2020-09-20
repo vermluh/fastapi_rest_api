@@ -10,14 +10,16 @@ All endpoints return the actual data encapsulated in the key ``data```, e.g.
 
 ::
 
-	{ "data" :
-		{
+	{
+	    "data":{
 		"id":2,
 		"username":"guest",
 		"email":"guest@example.com",
-		"_links": {[...]}
+		"_links":{
+		    [...]
 		}
-	} 
+	    }
+	}
 
 
 
@@ -86,10 +88,10 @@ Every endpoint which supports pagination is indicating this by returning some in
 ::
 
 	{
-	    "offset": 2,
-	    "limit": 5,
-	    "total": 21,
-	    "data": [...]
+	    "offset":2,
+	    "limit":5,
+	    "total":21,
+	    "data":[...]
 	}
 
 
