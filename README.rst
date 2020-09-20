@@ -8,7 +8,7 @@ All endpoints return JSON formatted output.
 
 All endpoints return the actual data encapsulated in the key ``data```, e.g.
 
-.. code-block:: json
+::
 	{ "data" :
 		{
 		"id":2,
@@ -82,7 +82,7 @@ Every endpoint which supports pagination is indicating this by returning some in
 
 * ``total``: Total number of entities within the ressource
 
-.. code-block:: json
+::
 	{
 	    "offset": 2,
 	    "limit": 5,
