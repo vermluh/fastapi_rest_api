@@ -10,7 +10,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
 db = SessionLocal()
-app = FastAPI(root_path="/fastapi_rest_api")
+app = FastAPI()
 
 def create_app(config_class=Config):
 	return app
