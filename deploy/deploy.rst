@@ -69,7 +69,7 @@ You can use Uvicorn, a lightning-fast ASGI server, built on uvloop and httptools
 To start Werkzeug execute ``run_uvicorn.sh`` from within the application directory.
 It enables the virtual python environment and executes ``fastapi_rest_api.py``.
 
-Once its running try to access it at https://ziggy.uber.space/fastapi_rest_api/users. Stop it by pressing ``Ctrl + C``.
+Once its running try to access it at ``/fastapi_rest_api/users``. Stop it by pressing ``Ctrl + C``.
 
 ::
 
