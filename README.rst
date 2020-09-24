@@ -23,9 +23,9 @@ All endpoints return the actual data encapsulated in the ``data`` key, e.g.
 
 
 
-*********
-Endpoints
-*********
+**********************
+Endpoints / Ressources
+**********************
 
 Users
 =====
@@ -58,6 +58,19 @@ POST        /departments      Create a new department
 PUT         /departments/[id] Update an existing department
 DELETE      /departments/[id] Delete a department
 =========== ================= =============================
+
+
+
+Users within a Department
+=========================
+
+Users may have a relation to a Deparment (see app/models.py).
+
+=========== ======================= =========================================
+HTTP Method URI                     Action
+=========== ======================= =========================================
+GET         /departments/[id]/users Retrieve a list of users for a department
+=========== ======================= =========================================
 
 
 
