@@ -27,6 +27,10 @@ All endpoints return the actual data encapsulated in the ``data`` key, e.g.
 Endpoints / Ressources
 **********************
 
+.. image:: db_model.png
+
+
+
 Users
 =====
 
