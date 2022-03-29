@@ -11,7 +11,8 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
 db = SessionLocal()
-app = FastAPI()
+#app = FastAPI()
+app = FastAPI(root_path='/app')
 
 origins = [
 	"*"
